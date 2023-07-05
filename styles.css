@@ -1,0 +1,37 @@
+*, *::after, *::before {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(296deg, rgba(37,37,37,0.2) 0%,transparent 15%),linear-gradient(353deg, rgba(37,37,37,0.2) 0%,transparent 29%),linear-gradient(62deg, rgba(37,37,37,0.2) 0%,transparent 24%),linear-gradient(194deg, rgba(37,37,37,0.2) 0%,transparent 42%),linear-gradient(270deg, rgba(60,60,60,0.95) 0%,transparent 1%),linear-gradient(90deg, rgba(56,56,56,0.95) 0%,transparent 1%),repeating-linear-gradient(220deg, rgba(140,140,140,0.1) 0px,transparent 4px),repeating-linear-gradient(298deg, rgba(140,140,140,0.1) 0px,transparent 4px),repeating-linear-gradient(312deg, rgba(140,140,140,0.1) 0px,transparent 4px),linear-gradient(90deg, rgb(21,69,57),rgb(21,69,57));
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100dvh;
+	width: 100dvw;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#canvas {
+background-color: rgb(252, 252, 245);
+box-shadow: 5px 5px 15px rgb(34, 34, 34);
+border-radius: 10px;
+}
+
+#title {
+	font-weight: 700;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: larger;
+}
+
+.bar:hover {
+	fill: cadetblue;
+}
